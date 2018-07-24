@@ -14,6 +14,7 @@
 		E6947762213B455D00240C97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6947760213B455D00240C97 /* LaunchScreen.storyboard */; };
 		E694776D213B455D00240C97 /* MemeMe_2_0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E694776C213B455D00240C97 /* MemeMe_2_0Tests.swift */; };
 		E6947778213B455D00240C97 /* MemeMe_2_0UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6947777213B455D00240C97 /* MemeMe_2_0UITests.swift */; };
+		E6947788213B4D1600240C97 /* Meme.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6947787213B4D1600240C97 /* Meme.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		E6947773213B455D00240C97 /* MemeMe 2.0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MemeMe 2.0UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6947777213B455D00240C97 /* MemeMe_2_0UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemeMe_2_0UITests.swift; sourceTree = "<group>"; };
 		E6947779213B455D00240C97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6947787213B4D1600240C97 /* Meme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meme.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				E6947757213B455C00240C97 /* AppDelegate.swift */,
 				E6947759213B455C00240C97 /* ViewController.swift */,
+				E6947787213B4D1600240C97 /* Meme.swift */,
 				E694775B213B455C00240C97 /* Main.storyboard */,
 				E694775E213B455D00240C97 /* Assets.xcassets */,
 				E6947760213B455D00240C97 /* LaunchScreen.storyboard */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6947788213B4D1600240C97 /* Meme.swift in Sources */,
 				E694775A213B455C00240C97 /* ViewController.swift in Sources */,
 				E6947758213B455C00240C97 /* AppDelegate.swift in Sources */,
 			);
