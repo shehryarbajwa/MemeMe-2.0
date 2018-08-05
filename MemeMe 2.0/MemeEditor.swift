@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class MemeEditorVC: UIViewController, UINavigationControllerDelegate, UIImagePickerControllerDelegate, UITextFieldDelegate {
+class MemeEditorViewController: UIViewController, UINavigationControllerDelegate, UIImagePickerControllerDelegate, UITextFieldDelegate {
     
     var memeSentFromDetail: Meme?
     @IBOutlet weak var imageView: UIImageView!

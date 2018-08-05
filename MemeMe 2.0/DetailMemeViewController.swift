@@ -22,7 +22,7 @@ class DetailMemeVC: UIViewController {
     }
     
     @IBAction func editAction(_ sender: Any) {
-        let memeEditorVC = storyboard!.instantiateViewController(withIdentifier: "MemeEditorVC") as! MemeEditorVC
+        let memeEditorVC = storyboard!.instantiateViewController(withIdentifier: "MemeEditorViewController") as! MemeEditorViewController
         memeEditorVC.memeSentFromDetail = self.meme
         self.navigationController?.pushViewController(memeEditorVC, animated: true)
     }
