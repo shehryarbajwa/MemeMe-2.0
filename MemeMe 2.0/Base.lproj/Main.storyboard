@@ -178,10 +178,10 @@
             </objects>
             <point key="canvasLocation" x="813.60000000000002" y="579.76011994002999"/>
         </scene>
-        <!--Meme EditorVC-->
+        <!--Meme Editor View Controller-->
         <scene sceneID="vYT-0r-Khv">
             <objects>
-                <viewController id="pN5-PH-7FH" customClass="MemeEditorVC" customModule="MeMe" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="pN5-PH-7FH" customClass="MemeEditorViewController" customModule="MemeMe_2_0" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="YpP-VA-qLU"/>
                         <viewControllerLayoutGuide type="bottom" id="bkL-gh-WpZ"/>
@@ -276,6 +276,48 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="q5G-qt-U9e" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2988" y="-62"/>
+        </scene>
+        <!--DetailMemeVC-->
+        <scene sceneID="tqy-kB-PGI">
+            <objects>
+                <viewController storyboardIdentifier="DetailMemeVC" id="qrS-hy-Hbq" userLabel="DetailMemeVC" customClass="DetailMemeView" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="A4C-CQ-Kbr"/>
+                        <viewControllerLayoutGuide type="bottom" id="NyO-1X-IUb"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Unr-nY-R5m">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Su3-98-LQ0" userLabel="imgView">
+                                <rect key="frame" x="0.0" y="62" width="375" height="557"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Su3-98-LQ0" firstAttribute="top" secondItem="A4C-CQ-Kbr" secondAttribute="bottom" constant="42" id="HGV-Xv-gyp"/>
+                            <constraint firstItem="Su3-98-LQ0" firstAttribute="leading" secondItem="Unr-nY-R5m" secondAttribute="leading" id="bE5-QR-Xjh"/>
+                            <constraint firstItem="NyO-1X-IUb" firstAttribute="top" secondItem="Su3-98-LQ0" secondAttribute="bottom" constant="4" id="fZe-Dg-Zf8"/>
+                            <constraint firstAttribute="trailing" secondItem="Su3-98-LQ0" secondAttribute="trailing" id="kCs-ch-rNi"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ivY-JH-dEU"/>
+                    </view>
+                    <toolbarItems>
+                        <barButtonItem title="Edit" id="V4r-Id-3qK">
+                            <connections>
+                                <action selector="editAction:" destination="qrS-hy-Hbq" id="Hdd-85-H7U"/>
+                            </connections>
+                        </barButtonItem>
+                    </toolbarItems>
+                    <navigationItem key="navigationItem" id="5Hk-1e-If4"/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="imgView" destination="Su3-98-LQ0" id="Sgr-O7-MOi"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VL7-6L-gP3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2988" y="798"/>
         </scene>
     </scenes>
     <resources>

@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class DetailMemeVC: UIViewController {
+class DetailMemeViewController: UIViewController {
     
     @IBOutlet weak var imgView: UIImageView!
     
