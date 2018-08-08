@@ -60,10 +60,10 @@
             </objects>
             <point key="canvasLocation" x="1752.8" y="579.76011994002999"/>
         </scene>
-        <!--View Controller-->
+        <!--CollectionVC-->
         <scene sceneID="gLc-Hw-8ND">
             <objects>
-                <viewController id="xAg-TR-cJO" sceneMemberID="viewController">
+                <viewController id="xAg-TR-cJO" customClass="CollectionVC" customModule="MemeMe_2_0" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1bi-LL-Ka5">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -280,7 +280,7 @@
         <!--DetailMemeVC-->
         <scene sceneID="tqy-kB-PGI">
             <objects>
-                <viewController storyboardIdentifier="DetailMemeVC" id="qrS-hy-Hbq" userLabel="DetailMemeVC" customClass="DetailMemeView" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DetailMemeVC" id="qrS-hy-Hbq" userLabel="DetailMemeVC" customClass="DetailMemeViewController" customModule="MemeMe_2_0" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="A4C-CQ-Kbr"/>
                         <viewControllerLayoutGuide type="bottom" id="NyO-1X-IUb"/>
@@ -317,7 +317,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VL7-6L-gP3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2988" y="798"/>
+            <point key="canvasLocation" x="2988" y="753"/>
         </scene>
     </scenes>
     <resources>
@@ -325,6 +325,6 @@
         <image name="table_30x30" width="30" height="30"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="e5D-rx-mFx"/>
+        <segue reference="8ZZ-5V-681"/>
     </inferredMetricsTieBreakers>
 </document>
