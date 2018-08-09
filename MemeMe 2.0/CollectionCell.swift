@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class CollectionVC: UICollectionViewController, UICollectionViewDelegateFlowLayout {
+class CollectionViewController: UICollectionViewController, UICollectionViewDelegateFlowLayout {
     
     var memes: [Meme]!
     @IBOutlet weak var flowLayout: UICollectionViewFlowLayout!

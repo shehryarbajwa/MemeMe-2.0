@@ -60,10 +60,10 @@
             </objects>
             <point key="canvasLocation" x="1752.8" y="579.76011994002999"/>
         </scene>
-        <!--CollectionVC-->
+        <!--Collection View Controller-->
         <scene sceneID="gLc-Hw-8ND">
             <objects>
-                <viewController id="xAg-TR-cJO" customClass="CollectionVC" customModule="MemeMe_2_0" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="xAg-TR-cJO" customClass="CollectionViewController" customModule="MemeMe_2_0" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1bi-LL-Ka5">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
