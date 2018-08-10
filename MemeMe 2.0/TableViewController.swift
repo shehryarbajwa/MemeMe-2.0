@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class TableVC: UITableViewController {
+class TableViewController: UITableViewController {
     
     var memes: [Meme] {
         return (UIApplication.shared.delegate as! AppDelegate).memes
