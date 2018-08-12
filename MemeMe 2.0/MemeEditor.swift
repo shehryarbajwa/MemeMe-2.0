@@ -20,6 +20,12 @@ class MemeEditorVC: UIViewController, UINavigationControllerDelegate, UIImagePic
     @IBOutlet weak var navigationBar: UINavigationBar!
     @IBOutlet weak var toolBar: UIToolbar!
     
+    let memeTextAttributes = [
+        NSAttributedStringKey.strokeColor.rawValue : UIColor.black,
+        NSAttributedStringKey.backgroundColor : UIColor.white,
+        NSAttributedStringKey.font : UIFont(name: "HelveticaNeue-CondensedBlack", size: 40)!,
+        NSAttributedStringKey.strokeWidth : -4.0
+        ] as! [String : Any]
     
     override func viewDidLoad() {
         super.viewDidLoad()
