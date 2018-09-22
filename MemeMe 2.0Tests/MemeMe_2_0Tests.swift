@@ -2,8 +2,8 @@
 //  MemeMe_2_0Tests.swift
 //  MemeMe 2.0Tests
 //
-//  Created by Shehryar Bajwa on 2018-09-01.
-//  Copyright © 2018 Shehryar. All rights reserved.
+//  Created by Shehryar Bajwa on 22/09/18.
+//  Copyright © 2018 Shehryar Bajwa. All rights reserved.
 //
 
 import XCTest
